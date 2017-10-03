@@ -1,4 +1,5 @@
 "use strict";
 
-"use tiny";
-soTiny();
+const canvasNamespace = _moduleTools.staticImport("@tiny/canvas");
+
+Canvas.soTiny();
